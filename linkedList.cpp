@@ -17,6 +17,29 @@ public:
     }
 };
 
+class LinkedList{
+    Node * head;
+
+public:
+    LinkedList(){
+        this->head=nullptr;
+    }
+
+    int insertNode(int data){
+        Node newNode= new Node(data);
+        if(head == nullptr){
+            head=newNode;
+        }
+        else{
+            Node * temp = head;
+
+        }
+    }
+
+
+
+};
+
 
 int main(){
     cout << "Hello";
